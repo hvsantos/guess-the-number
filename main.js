@@ -16,11 +16,7 @@ function clickExec(event) {
   let valueGuess = Number($input.value)
   console.log(secretValue)
   if (guessTries < 3) {
-    if (
-      valueGuess &&
-      (valueGuess <= 10 || valueGuess >= 0) &&
-      valueGuess != ''
-    ) {
+    if (valueGuess && valueGuess <= 10 && valueGuess >= 0 && valueGuess != '') {
       guessTries++
       guessItAll(valueGuess)
     } else {
