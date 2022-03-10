@@ -1,0 +1,56 @@
+body {
+  background-color: #738fa7;
+}
+.main-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+  gap: 1rem;
+}
+.main-title,
+.main-subtitle {
+  font-family: 'Fredoka', Arial, Helvetica, sans-serif;
+  color: #071330;
+}
+.main-title {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.main-subtitle {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.container-imersao {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+}
+.main-subtitle.-imersao {
+  font-size: 2.2rem;
+  font-weight: 400;
+}
+.main-subtitle.-dev {
+  font-size: 2.2rem;
+  font-weight: 400;
+  background-color: #fbdd00;
+  padding-bottom: 6px;
+  padding-right: 6px;
+  padding-left: 6px;
+}
+.main-subtitle.-input {
+  text-align: center;
+  height: 2rem;
+  font-size: 1.6rem;
+}
+.container-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.main-button {
+  height: 2.5rem;
+}
