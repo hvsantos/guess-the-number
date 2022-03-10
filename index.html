@@ -25,9 +25,24 @@
         <h2 class="main-subtitle -dev">dev&#95;</h2>
       </div>
       <form class="container-form">
-        <label class="main-subtitle">Insira seu Palpite</label>
-        <input type="text" class="inputguess main-subtitle -input" />
-        <button type="submit" class="main-button main-subtitle">Tentar</button>
+        <label for="inputvalor" class="main-subtitle"
+          >Insira seu palpite, de 0 a 10. Você tem 3 chances</label
+        >
+        <input
+          id="inputvalor"
+          type="text"
+          class="inputguess main-subtitle -input"
+        />
+        <button id="trybutton" type="submit" class="main-button main-subtitle">
+          Tentar
+        </button>
+        <button
+          id="resetbutton"
+          type="submit"
+          class="main-button main-subtitle"
+        >
+          Novo Número
+        </button>
       </form>
       <div class="container-answer">
         <h2 class="main-subtitle answer"></h2>
